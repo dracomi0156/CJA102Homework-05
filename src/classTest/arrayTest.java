@@ -8,6 +8,7 @@ public class arrayTest {
 		
 		setArrayRandom(x);
 		setArrayRandom(y);	
+//		sumArray(x,y);
 
 		for(int i=0; i<x.length; i++) {
 			for(int j=0; j<y.length; j++) {
@@ -23,6 +24,8 @@ public class arrayTest {
 //		System.out.println(Math.random()); // 0 <= r < 1
 	}
 	
+	
+//	我寫的
 	public static void setArrayRandom(int[][] arr) {
 		for(int i=0; i<arr.length; i++) {
 			for(int j=0; j<arr.length; j++) {
@@ -34,7 +37,8 @@ public class arrayTest {
 		System.out.println();
 	}
 	
-	public static void sumArrayRandom(int[][] arr1, int[][] arr2) {
+	
+	public int[][] sumArray(int[][] arr1, int[][] arr2) {
 		int[][] arr = new int[arr1.length][];
 		for(int i=0; i<arr.length; i++) {
 			for(int j=0; j<arr.length; j++) {
@@ -44,6 +48,7 @@ public class arrayTest {
 			System.out.println();
 		}
 		System.out.println();
+		return arr;
 	}
 	
 	
