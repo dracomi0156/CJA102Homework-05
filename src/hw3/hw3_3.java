@@ -18,15 +18,17 @@ public class hw3_3 {
 		int[] choose6 = new int[6];
 		int randomNumber = (int)(Math.random()*50);
 		
+		// 篩選掉不要的號碼
 		for(int i=1; i<=49; i++) {
 			if(i/10 != chooseNumber  && i%10 != chooseNumber) {
 				number[i-1] = i;
 				count++;
 			}else {
-				number[i] = 0;
+				number[i-1] = 0;
 			}
 		}
 		
+		// 印出篩選完剩下的號碼
 		for(int i=0; i<49; i++) {
 			if(number[i] != 0) {
 				System.out.print(number[i] + " ");
@@ -35,6 +37,7 @@ public class hw3_3 {
 		System.out.println();
 		System.out.println("總共有" + count + "數字可選");
 		
+		// 選6個號碼
 		while(count6 < 6) {
 			randomNumber = (int)(Math.random()*49+1);
 			for(int i=0; i<49; i++) {
@@ -46,6 +49,7 @@ public class hw3_3 {
 			}
 		}
 		
+		// 印出剛剛選好的6個號碼
 		System.out.print("亂數選6個號碼: ");
 		for(int i=0; i<6; i++) {
 			System.out.print(choose6[i] + " ");
