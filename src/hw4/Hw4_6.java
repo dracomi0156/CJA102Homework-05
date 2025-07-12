@@ -1,6 +1,6 @@
 package hw4;
 
-public class hw4_6 {
+public class Hw4_6 {
 //	• 班上有8位同學，他們進行了6次考試結果如下：
 //	  請算出每位同學考最高分的次數
 	public static void main(String[] args) {
@@ -24,10 +24,9 @@ public class hw4_6 {
  		
 		highestScoreCount(classScores1);
 		highestScoreCount(classScores2);
-		
+
 	}
-	
-	
+
 	public static void highestScoreCount(int[][] array) {
 		int[] count = new int[array[0].length];
 		for (int i = 0; i < array.length; i++) {
@@ -43,8 +42,7 @@ public class hw4_6 {
 		}
 		System.out.println("===========");
 	}
-	
-	
+
 	public static int findMaxNum(int[] array) {
 		int maxNum = array[0];
 		for (int i = 1; i < array.length; i++) {

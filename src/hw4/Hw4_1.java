@@ -1,7 +1,7 @@
 package hw4;
 
-public class hw4_1 {
-	
+public class Hw4_1 {
+
 	public static void main(String[] args) {
 //		• 有個一維陣列如下：
 //		  {29, 100, 39, 41, 50, 8, 66, 77, 95, 15}
@@ -29,10 +29,5 @@ public class hw4_1 {
 		}
 		System.out.println();
 	}
-	
-	
-	
+
 }
-	
-
-
