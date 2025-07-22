@@ -1,6 +1,6 @@
 package classTest;
 
-public class Powder implements WeightTool {
+public class Powder implements WeightTool{
 	private String color; 
 	private double weight;
 	
@@ -33,6 +33,5 @@ public class Powder implements WeightTool {
 	public void printWeightTool() {
 		System.out.println("Powder: 天秤");
 	}
-	
 	
 }
