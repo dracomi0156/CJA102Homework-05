@@ -12,7 +12,7 @@ import java.util.List;
 //• 印出這個物件裡的所有元素(使用Iterator, 傳統for與foreach)
 //• 移除不是java.lang.Number相關的物件
 //• 再次印出這個集合物件的所有元素，觀察是否已將非Number相關的物件移除成功
-public class hw8_1 {
+public class Hw8_1 {
 	public static void main(String[] args) {
 
 		List myList = new ArrayList();

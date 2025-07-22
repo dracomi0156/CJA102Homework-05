@@ -29,7 +29,7 @@ import java.util.TreeSet;
 //• 承上，不僅能讓班次編號由大排到小印出，還可以不重複印出Train物件
 //• (以上三題請根據使用的集合，練習各種取值寫法，如迭代器、for迴圈或foreach等)
 
-public class hw8_2 {
+public class Hw8_2 {
 	public static void main(String[] args) {
 		Train t1 = new Train(202, "普悠瑪", "樹林", "花蓮", 400);
 		Train t2 = new Train(1254, "區間", "屏東", "基隆", 700);
