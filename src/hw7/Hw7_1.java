@@ -10,7 +10,7 @@ import java.io.IOException;
 public class Hw7_1 {
 	public static void main(String[] args) throws IOException {
 
-		File inputFile = new File(".\\src\\hw7\\Sample2.txt");
+		File inputFile = new File(".\\src\\hw7\\Sample.txt");
 		FileReader fr = new FileReader(inputFile);
 
 		int c;
